@@ -197,5 +197,5 @@ Cleaning installed packages.
 
 The log `[Sat Nov 20 18:06:06.828215 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'` means that `Composer` has finished its work, you can now consult the site.
 
-If you did not change the configuration `DRUPAL_PORT` dans le fichier .env, le site est disponible à l'url suivante: `http://localhost:8091`.
+If you did not change the configuration `DRUPAL_PORT` in the .env file, the site is available at the following url: `http://localhost:8091`.
 
