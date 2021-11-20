@@ -1,7 +1,7 @@
 {#
 /**
  * @file
- * Bartik's theme implementation for a search form block.
+ * Theme override for the search form block.
  *
  * Available variables:
  * - plugin_id: The ID of the block implementation.
@@ -12,7 +12,6 @@
  *   - provider: The module or other provider that provided this block plugin.
  *   - Block plugin specific settings will also be stored here.
  * - content: The content of this block.
- * - content_attributes: A list of HTML attributes applied to the main content
  * - attributes: A list HTML attributes populated by modules, intended to
  *   be added to the main container tag of this template. Includes:
  *   - id: A valid HTML ID and guaranteed unique.
@@ -34,15 +33,21 @@
     'container-inline',
   ]
 %}
+
+<div class="search-iconwrap">
+  <a class="search-link" title="{{ 'Go to the search page'|t }}" href="{{ path('search.view') }}">
+    <span class="search-icon" aria-hidden="true">{% include active_theme_path() ~ '/images/svg/search.svg' %}</span>
+    <span class="visually-hidden">{{ 'Search'|t }}</span>
+  </a>
+</div>
+
 <div{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
   {% if label %}
-    <h2{{ title_attributes }}>{{ label }}</h2>
+    <h2{{ title_attributes.addClass('visually-hidden') }}>{{ label }}</h2>
   {% endif %}
   {{ title_suffix }}
   {% block content %}
-    <div{{ content_attributes.addClass('content', 'container-inline') }}>
-      {{ content }}
-    </div>
+    {{ content }}
   {% endblock %}
 </div>

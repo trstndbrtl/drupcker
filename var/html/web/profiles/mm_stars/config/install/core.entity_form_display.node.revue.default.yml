@@ -18,6 +18,7 @@ dependencies:
   module:
     - datetime
     - link
+    - media_library
     - path
     - text
 id: node.revue.default
@@ -27,7 +28,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 2
+    weight: 6
     region: content
     settings:
       rows: 9
@@ -37,19 +38,19 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 6
+    weight: 16
     region: content
     settings: {  }
     third_party_settings: {  }
   field_annee_d_edition:
     type: datetime_default
-    weight: 4
+    weight: 8
     region: content
     settings: {  }
     third_party_settings: {  }
   field_auteurs:
-    type: entity_reference_autocomplete
-    weight: 3
+    type: entity_reference_autocomplete_tags
+    weight: 2
     region: content
     settings:
       match_operator: CONTAINS
@@ -58,26 +59,23 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_couverture:
-    type: entity_reference_autocomplete
+    type: media_library_widget
     weight: 11
     region: content
     settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+      media_types: {  }
     third_party_settings: {  }
   field_liens:
     type: link_default
-    weight: 12
+    weight: 13
     region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
   field_maison_d_edition:
-    type: entity_reference_autocomplete
-    weight: 13
+    type: entity_reference_autocomplete_tags
+    weight: 3
     region: content
     settings:
       match_operator: CONTAINS
@@ -86,8 +84,8 @@ content:
       placeholder: ''
     third_party_settings: {  }
   field_mouvement_litteraire:
-    type: entity_reference_autocomplete
-    weight: 14
+    type: entity_reference_autocomplete_tags
+    weight: 4
     region: content
     settings:
       match_operator: CONTAINS
@@ -97,7 +95,7 @@ content:
     third_party_settings: {  }
   field_reference_livre:
     type: entity_reference_autocomplete
-    weight: 15
+    weight: 12
     region: content
     settings:
       match_operator: CONTAINS
@@ -107,15 +105,15 @@ content:
     third_party_settings: {  }
   field_sous_titre:
     type: string_textfield
-    weight: 16
+    weight: 1
     region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
   field_tags:
-    type: entity_reference_autocomplete
-    weight: 17
+    type: entity_reference_autocomplete_tags
+    weight: 5
     region: content
     settings:
       match_operator: CONTAINS
@@ -125,13 +123,13 @@ content:
     third_party_settings: {  }
   field_type_revue:
     type: options_select
-    weight: 18
+    weight: 7
     region: content
     settings: {  }
     third_party_settings: {  }
   field_video:
     type: string_textfield
-    weight: 19
+    weight: 10
     region: content
     settings:
       size: 60
@@ -139,7 +137,7 @@ content:
     third_party_settings: {  }
   langcode:
     type: language_select
-    weight: 1
+    weight: 14
     region: content
     settings:
       include_locked: true
@@ -154,21 +152,21 @@ content:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 7
+    weight: 17
     region: content
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 10
+    weight: 19
     region: content
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
-    weight: 8
+    weight: 18
     region: content
     third_party_settings: {  }
   title:
@@ -181,7 +179,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 15
     settings:
       match_operator: CONTAINS
       size: 60

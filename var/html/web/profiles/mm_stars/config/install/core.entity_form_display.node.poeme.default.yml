@@ -14,7 +14,6 @@ dependencies:
     - node.type.poeme
   module:
     - datetime
-    - layout_discovery
     - link
     - path
     - text
@@ -40,7 +39,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_annee_d_edition:
-    weight: 5
+    weight: 6
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
@@ -53,7 +52,7 @@ content:
       size: 60
       placeholder: 'Veuillez renseigner les auteurs'
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: entity_reference_autocomplete_tags
     region: content
   field_liens:
     weight: 9
@@ -71,7 +70,7 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: entity_reference_autocomplete_tags
     region: content
   field_reference_livre:
     weight: 8
@@ -84,7 +83,7 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_sous_titre:
-    weight: 2
+    weight: 1
     settings:
       size: 60
       placeholder: 'Y a t-il un sous-titre à ce poème ?'
@@ -92,17 +91,17 @@ content:
     type: string_textfield
     region: content
   field_tags:
-    weight: 6
+    weight: 5
     settings:
       match_operator: CONTAINS
       match_limit: 10
       size: 60
       placeholder: 'Veuillez renseigner des tags. Ex : Amour, Haine, Joie'
     third_party_settings: {  }
-    type: entity_reference_autocomplete
+    type: entity_reference_autocomplete_tags
     region: content
   field_type_poeme:
-    weight: 1
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     type: options_buttons

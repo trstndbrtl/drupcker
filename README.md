@@ -1,6 +1,5 @@
 # Drupcker9 Stack 2022
 
-Great enviroment Drupal 9 for magazine in a Docker container.
 
 ## Prerequisites
 
