@@ -1,4 +1,4 @@
-# Bump db
+# Dump db
 
 ## Shared folders
 Share folder with the postgres container for database exports.
