@@ -1,0 +1,9 @@
+langcode: fr
+status: true
+dependencies:
+  module:
+    - aggregator
+id: aggregator_item.summary
+label: Summary
+targetEntityType: aggregator_item
+cache: true

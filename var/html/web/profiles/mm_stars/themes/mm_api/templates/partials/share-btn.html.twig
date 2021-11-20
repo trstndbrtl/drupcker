@@ -1,0 +1,11 @@
+<ul class="icons-item-actions-social uk-flex">
+  <li>
+    <a aria-label="{{ 'Partager sur facebook'|t }}" class="gm-facebook gm-icon-button uk-margin-small-right" href="https://www.facebook.com/share.php?u={{tdb_url_base}}{{ path('entity.node.canonical', {'node': tdb_nid}) }}&amp;title={{tdb_title_node}}" target="_blank" title="{{'Partager ' ~ tdb_title_node  ~ ' sur Facebook'}}"><span uk-icon="facebook"></span></a>
+  </li>
+  <li>
+    <a aria-label="{{ 'Partager sur Twitter'|t }}" class="gm-twitter gm-icon-button uk-margin-small-right" href="https://twitter.com/home?status={{tdb_url_base}}{{ path('entity.node.canonical', {'node': tdb_nid}) }}&amp;title={{tdb_title_node}}" target="_blank" title="{{'Partager ' ~ tdb_title_node  ~ ' sur Twitter'}}"><span uk-icon="twitter"></span></a>
+  </li>
+  <li>
+    <a aria-label="{{ 'Partager sur Linkedin'|t }}" class="gm-linkedin gm-icon-button uk-margin-small-right" href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{tdb_url_base}}{{ path('entity.node.canonical', {'node': tdb_nid}) }}&amp;title={{tdb_title_node}}" target="_blank" title="{{'Partager ' ~ tdb_title_node  ~ ' sur Linkedin'}}"><span uk-icon="linkedin"></span></a>
+  </li>
+</ul>

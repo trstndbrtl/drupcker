@@ -1,0 +1,28 @@
+name: 'mm api'
+type: theme
+base theme: false
+description: 'The theme used for the mm api magazine demonstration site.'
+# version: VERSION
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - mm_api/global-styling
+
+regions:
+  header_top: 'Header top'
+  header: Header
+  menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  third_menu: 'Third menu'
+  locale: 'Locale'
+  page_top: 'Page top' # Needed by Drupal Core
+  msg: Message
+  content: Content
+  page_bottom: 'Page bottom' # Needed by Drupal Core
+  sidebar_one: 'Sidebar one'
+  sidebar_two: 'Sidebar two'
+  footer: 'Footer'
+  footer1: 'Footer 1'
+  footer2: 'Footer 2'
+  footer3: 'Footer 3'
+  footer4: 'Footer 4'

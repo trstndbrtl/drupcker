@@ -1,0 +1,13 @@
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.amis
+  module:
+    - user
+id: user_add_role_action.amis
+label: 'Ajouter le rôle Amis aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: amis

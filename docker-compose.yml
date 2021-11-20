@@ -1,0 +1,96 @@
+version: '3.6'
+services:
+
+  drucker9:
+    hostname: ${DRUPAL_HOSTNAME}
+    container_name: drucker9
+    restart: always
+    user: root
+    image: tdb/mm${DRUPAL_VERSION}:${TAG_VERSION}
+    build:
+      context: ./
+      dockerfile: ./config/d9/Dockerfile
+    ports:
+      - ${DRUPAL_PORT}:80
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_HOST: ${POSTGRES_HOST}
+      POSTGRES_PORT: ${POSTGRES_PORT}
+      ENV_NAME: DEV
+    volumes:
+      - ./var/html/web/modules:/var/www/html/modules
+      - ./var/html/web/themes:/var/www/html/themes
+      - ./var/html/web/profiles:/var/www/html/profiles
+      - ./var/html/web/libraries:/var/www/html/libraries
+      - ./var/html/web/sites:/var/www/html/sites
+      - ./var/html/config:/opt/drupal/config
+      - ./var/html/features:/opt/drupal/features
+      - ./var/html/translations:/opt/drupal/translations
+      - ./var/html/private:/opt/drupal/private
+      - ./var/html/composer.json:/opt/drupal/composer.json
+      - ./var/html/behat.yml:/opt/drupal/behat.yml
+      - ./config/d9/apache2/000-default.conf:/etc/apache2/sites-available/000-default.conf
+      - ./config/d9/bash/.bashrc:/root/.bashrc
+    networks:
+      - d9pr
+    depends_on:
+      - postgres9
+
+  # Postgres to store data
+  postgres9:
+    container_name: postgres9
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_HOST: ${POSTGRES_HOST}
+      POSTGRES_PORT: ${POSTGRES_PORT}
+      ENV_NAME: ${ENV_NAME}
+    volumes:
+      - ./postgresql:/home/db
+      - postgresql:/var/lib/postgresql/data
+    ports:
+     - ${POSTGRES_PORT}:5432
+    networks:
+      - d9pr
+
+  # Adminer to manipulate db
+  adminer9:
+    image: adminer
+    container_name: adminer9
+    restart: always
+    environment:
+      ADMINER_DEFAULT_DB_DRIVER: pgsql
+      ADMINER_DEFAULT_DB_HOST: postgres9
+    ports:
+      - ${ADMINER_PORT}:8080
+    networks:
+      - d9pr
+    depends_on:
+      - postgres9
+
+volumes:
+  modules:
+    driver: local
+  themes:
+    driver: local
+  profiles:
+    driver: local
+  sites:
+    driver: local
+  libraries:
+    driver: local
+  config:
+    driver: local
+  features:
+    driver: local
+  postgresql:
+    driver: local
+
+networks:
+  d9pr:
+    driver: bridge

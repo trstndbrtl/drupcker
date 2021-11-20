@@ -1,0 +1,7 @@
+langcode: fr
+status: true
+dependencies: {  }
+name: Domaines
+vid: domaines
+description: ''
+weight: 0

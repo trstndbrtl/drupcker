@@ -1,0 +1,27 @@
+global-styling:
+  js:
+    'js/uikit.min.js': { minified: true }
+    'js/api-menu.js': {}
+    'js/main.js': {}
+  dependencies:
+    - system/admin
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+    - core/drupalSettings
+    # - core/modernizr
+  css:
+    base:
+      'css/bootstrap-icons.css': {}
+      'https://fonts.googleapis.com/css2?family=Parisienne&display=swap': {}
+      'https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap': {}
+      'css/uikit.min.css': { minified: true }
+      'css/main.css': {}
+
+maintenance_page:
+  css:
+    theme:
+      'css/maintenance-page.css': {}
+  dependencies:
+    - system/maintenance
+    - mm_api/global-styling

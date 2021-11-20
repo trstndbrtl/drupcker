@@ -1,0 +1,7 @@
+langcode: fr
+status: true
+dependencies: {  }
+name: Figures
+vid: figures
+description: 'Liste de personnage, auteurs, traducteurs, illustrateurs, réalisateurs...'
+weight: 0

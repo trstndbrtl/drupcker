@@ -1,0 +1,84 @@
+name: 'MM Stars Profile'
+type: profile
+description: 'Install MM stars site that shows off a drupal API'
+# version: VERSION
+package: MM
+core: 8.x
+core_version_requirement: ^8 || ^9
+distribution:
+  name: 'Stars Api MM'
+  langcode: fr
+  install:
+    theme: mm_api
+install:
+  - node
+  - history
+  - big_pipe
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - contextual
+  - contact
+  - layout_builder
+  - layout_discovery
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - media
+  - media_library
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - tour
+  - automated_cron
+  - responsive_image
+  - content_moderation
+  - workflows
+  - language
+  - locale
+  - datetime_range
+  - serialization
+  - rest
+  - hal
+  - statistics
+  - syslog
+  - comment
+  - aggregator
+  - action
+  - ban
+  - basic_auth
+  - telephone
+  - token
+  - ctools
+  - pathauto
+  - allowed_formats
+  - inline_entity_form
+dependencies:
+  - node
+  - block
+  - ctools
+  - token
+  - pathauto
+  - allowed_formats
+  - inline_entity_form
+themes:
+  - claro
+  - mm_api

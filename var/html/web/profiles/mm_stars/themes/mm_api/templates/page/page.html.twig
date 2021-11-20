@@ -1,0 +1,111 @@
+{% set sidebar1 = page.sidebar_one ? true : false %}
+{% set sidebar2 = page.sidebar_two ? true : false %}
+{# HEADER TOP #}
+{% if page.header_top|render|striptags|trim is not empty %}
+  {{ page.header_top }}
+{% endif %}
+<div class="db-bar"></div>
+{# HEADER #}
+{% if page.menu|render|striptags|trim is not empty or page.secondary_menu|render|striptags|trim is not empty or page.third_menu|render|striptags|trim is not empty or page.locale|render|striptags|trim is not empty %}
+  <div uk-sticky="sel-target: .tdb-navbar; cls-active: uk-navbar-sticky">
+    <div id="db-navbar" class="tdb-navbar uk-section uk-section-xsmall">
+      <div class="uk-container uk-container-small">
+        <div class="navbar" uk-grid>
+          {% if page.header|render|striptags|trim is not empty %}
+            <div class="navbar-logo navbar-wrap expand@m">
+              {{ page.header }}
+            </div>
+          {% endif %}
+          {% if page.menu|render|striptags|trim is not empty %}
+            <div class="navbar-menu navbar-wrap expand@m uk-visible@m">
+              {{ page.menu }}
+            </div>
+          {% endif %}
+          {% if page.secondary_menu|render|striptags|trim is not empty %}
+            <div class="navbar-secondary navbar-wrap expand@m uk-visible@m">
+              {{ page.secondary_menu }}
+            </div>
+          {% endif %}
+          {% if page.locale|render|striptags|trim is not empty %}
+            <div class="navbar-locale navbar-wrap expand@m uk-visible@m">
+              {{ page.locale }}
+            </div>
+          {% endif %}
+          {% if page.third_menu|render|striptags|trim is not empty %}
+            <div class="navbar-third navbar-wrap expand@m uk-visible@m">
+              {{ page.third_menu }}
+            </div>
+          {% endif %}
+            <div class="navbar-mobile expand@m uk-hidden@m">
+              <button class="uk-button uk-button-default"><i class="bi bi-list"></i><span class="db-label">Menu</span></button>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
+{# MESSAGE #}
+{% if page.msg|render|striptags|trim is not empty %}
+    {{ page.msg }}
+{% endif %}
+{# MAIN #}
+<main id="contenu-principal" class="tdb-main-page uk-section uk-section-small">
+  <div class="uk-container uk-container-small">
+    <div class="content" uk-grid>
+      <div class="content uk-width-expand@m">
+        {{ page.content }}
+      </div>
+      {% if page.sidebar_one|render|striptags|trim is not empty %}
+        <div class="sidebar-one uk-width-1-{{ sidebar2 ? '4' : '3' }}@m">
+          {{ page.sidebar_one }}
+        </div>
+      {% endif %}
+      {% if page.sidebar_two|render|striptags|trim is not empty %}
+        <div class="sidebar-two uk-width-1-4@m">
+          {{ page.sidebar_two }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</main>
+{# FOOTER #}
+{% if page.footer1|render|striptags|trim is not empty or page.footer2|render|striptags|trim is not empty or page.footer3|render|striptags|trim is not empty or page.footer4|render|striptags|trim is not empty %}
+  <footer id="footer" class="tdb-footer-page uk-section uk-section-small">
+    <div class="uk-container uk-container-small">
+      <div class="footer-content" uk-grid>
+        {% if page.footer1|render|striptags|trim is not empty %}
+          <div class="footer-one uk-width-auto@m">
+            {{ page.footer1 }}
+          </div>
+        {% endif %}
+        {% if page.footer2|render|striptags|trim is not empty %}
+          <div class="footer-two uk-width-auto@m">
+            {{ page.footer2 }}
+          </div>
+        {% endif %}
+        {% if page.footer3|render|striptags|trim is not empty %}
+          <div class="footer-three uk-width-auto@m">
+            {{ page.footer3 }}
+          </div>
+        {% endif %}
+        {% if page.footer4|render|striptags|trim is not empty %}
+          <div class="footer-foor uk-width-auto@m">
+            {{ page.footer4 }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </footer>
+{% endif %}
+{# FOOTER BOTTOM #}
+{% if page.footer|render|striptags|trim is not empty %}
+  <footer id="footer-b" class="tdb-footer-b-page uk-section">
+    <div class="uk-container uk-container-small">
+      <div class="footer-b-content" uk-grid>
+          <div class="footer-b uk-width-1-1@m">
+            {{ page.footer }}
+          </div>
+      </div>
+    </div>
+  </footer>
+{% endif %}

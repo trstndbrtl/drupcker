@@ -1,0 +1,8 @@
+langcode: fr
+status: true
+dependencies: {  }
+id: associees
+label: Associé.e.s
+weight: -8
+is_admin: null
+permissions: {  }
