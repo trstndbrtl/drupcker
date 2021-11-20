@@ -1,8 +1,11 @@
+uuid: a1e1adc3-fc19-4617-84ed-b64e19aa829a
 langcode: fr
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: hBKxFb_cBZND5TEtBNu6PRrxjMAbEj414LkBlFBVSBc
 id: node.field_reference_livre
 field_name: field_reference_livre
 entity_type: node

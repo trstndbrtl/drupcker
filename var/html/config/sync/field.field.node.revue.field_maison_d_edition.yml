@@ -1,3 +1,4 @@
+uuid: 86b6e339-8be7-4cb8-bf74-adbf1faca15c
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - field.storage.node.field_maison_d_edition
     - node.type.revue
     - taxonomy.vocabulary.maison_d_edition
+_core:
+  default_config_hash: Sn-5jtvKpVgRt5iC46txjWhYKtqHW0OQEfMrRKeK1Lo
 id: node.revue.field_maison_d_edition
 field_name: field_maison_d_edition
 entity_type: node

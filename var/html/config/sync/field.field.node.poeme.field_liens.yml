@@ -1,3 +1,4 @@
+uuid: abc7f7cc-5d21-4c0a-99a7-5cf5053f8f7f
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.poeme
   module:
     - link
+_core:
+  default_config_hash: VNfCOXzsifRGCLGAehbqxaJKRQiRl_aUlQWx2FsAXzA
 id: node.poeme.field_liens
 field_name: field_liens
 entity_type: node

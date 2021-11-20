@@ -1,3 +1,4 @@
+uuid: 35af99bc-244b-4b27-9750-ff2a6b14c350
 langcode: fr
 status: true
 dependencies:
@@ -22,6 +23,8 @@ dependencies:
     - media_library
     - path
     - text
+_core:
+  default_config_hash: BBhB6IFhBacaaJq3AxXSM3p5u11OpoKDHd4mGDzTk9Y
 id: node.livres.default
 targetEntityType: node
 bundle: livres

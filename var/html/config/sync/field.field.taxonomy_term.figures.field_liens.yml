@@ -1,3 +1,4 @@
+uuid: 296b4406-2c85-4f35-b079-7f774ce2d748
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - taxonomy.vocabulary.figures
   module:
     - link
+_core:
+  default_config_hash: nOsXNYmebOs__zYVS9L3OZeiIz84Gzros-cpLiX553A
 id: taxonomy_term.figures.field_liens
 field_name: field_liens
 entity_type: taxonomy_term

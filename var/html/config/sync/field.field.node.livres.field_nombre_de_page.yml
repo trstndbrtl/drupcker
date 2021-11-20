@@ -1,9 +1,12 @@
+uuid: 7d3d7d7c-e6ff-44e6-814f-a894c32c8f02
 langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.node.field_nombre_de_page
     - node.type.livres
+_core:
+  default_config_hash: mogH5tQWL27ilxdbH5pThHE3eEaKAIIxwCaU52R7iJU
 id: node.livres.field_nombre_de_page
 field_name: field_nombre_de_page
 entity_type: node

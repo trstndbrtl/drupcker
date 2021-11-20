@@ -1,3 +1,4 @@
+uuid: fb968ca0-ed15-4b51-ba3b-ca45f7084547
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.livres
     - node.type.poeme
     - node.type.revue
+_core:
+  default_config_hash: 7tpOb4PlOGnuGrmaw0-MgHGNWqb3VPUmN6dPEXEFGkI
 id: node.revue.field_reference_livre
 field_name: field_reference_livre
 entity_type: node

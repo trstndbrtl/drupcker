@@ -1,8 +1,11 @@
+uuid: d3a199c7-8db8-462e-a1c8-c0ef3169e3f5
 langcode: fr
 status: true
 dependencies:
   module:
     - user
+_core:
+  default_config_hash: TKbPx7-mKJUs1nro7uQdtyBi_zG-uKern8NSqfoFK2Y
 id: user.field_prenom
 field_name: field_prenom
 entity_type: user

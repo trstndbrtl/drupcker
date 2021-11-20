@@ -1,9 +1,12 @@
+uuid: 64aee2e5-6451-4b90-868c-17642e0e8763
 langcode: fr
 status: true
 dependencies:
   module:
     - datetime
     - taxonomy
+_core:
+  default_config_hash: 9HNbicCbwfkIxuCYFi1qawR8vI6pTgZ7j6pTFUzLJgY
 id: taxonomy_term.field_date_de_deces
 field_name: field_date_de_deces
 entity_type: taxonomy_term

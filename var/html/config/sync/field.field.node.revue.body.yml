@@ -1,3 +1,4 @@
+uuid: 1f0bbc5f-b43e-4434-826d-15b0f506e011
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.revue
   module:
     - text
+_core:
+  default_config_hash: 2LmoUkB5t61OdVZBy8ulxLm0gv__CmOZcnownc8oA4I
 id: node.revue.body
 field_name: body
 entity_type: node

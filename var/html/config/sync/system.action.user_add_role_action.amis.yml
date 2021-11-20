@@ -1,3 +1,4 @@
+uuid: 8b30f4b3-d113-42f7-a589-74bc1ae5f671
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - user.role.amis
   module:
     - user
+_core:
+  default_config_hash: O58r0VjZX6E5effTrNhlfkROlaQ07JG2SlAmyvdXa18
 id: user_add_role_action.amis
 label: 'Ajouter le rôle Amis aux utilisateurs sélectionnés'
 type: user

@@ -1,8 +1,11 @@
+uuid: cffff481-3acb-4a12-a48b-c040f2fe231c
 langcode: fr
 status: true
 dependencies:
   module:
     - user
+_core:
+  default_config_hash: Tj4V4_ktUVdHjQ1iEQq4o5ny8XFaYhEtkGbVukcx5uk
 id: user_admin_people
 label: Personnes
 module: user

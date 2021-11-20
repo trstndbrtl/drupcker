@@ -1,3 +1,4 @@
+uuid: 0e2c4403-b095-4f1e-9e82-be3ad2cb98d9
 langcode: fr
 status: true
 dependencies:
@@ -8,10 +9,11 @@ dependencies:
     - taxonomy.vocabulary.mouvement_litteraire
   module:
     - datetime
-    - layout_discovery
     - link
     - path
     - text
+_core:
+  default_config_hash: y9IUx5knbU4Xin4omLJ6R4zJCTUCM0uxM29pQUjeijA
 id: taxonomy_term.mouvement_litteraire.default
 targetEntityType: taxonomy_term
 bundle: mouvement_litteraire

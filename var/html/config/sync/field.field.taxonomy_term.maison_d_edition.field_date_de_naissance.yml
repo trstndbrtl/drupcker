@@ -1,3 +1,4 @@
+uuid: 8f48605c-4024-42aa-8a29-dd5bfa8b228c
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - taxonomy.vocabulary.maison_d_edition
   module:
     - datetime
+_core:
+  default_config_hash: WUEFjFYFIiK4DUdNpwJ6ZS5MlmttHEaQTNv-ypwjVK8
 id: taxonomy_term.maison_d_edition.field_date_de_naissance
 field_name: field_date_de_naissance
 entity_type: taxonomy_term

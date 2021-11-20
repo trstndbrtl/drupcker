@@ -1,9 +1,12 @@
+uuid: e9eff1f0-61e4-4711-a93e-1a122e45483c
 langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.taxonomy_term.field_prenom
     - taxonomy.vocabulary.figures
+_core:
+  default_config_hash: thv49gbpzYvy8-GLKJ_CqTXHNVTUUucORKQKeTCmCt8
 id: taxonomy_term.figures.field_prenom
 field_name: field_prenom
 entity_type: taxonomy_term

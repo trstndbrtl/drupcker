@@ -1,3 +1,4 @@
+uuid: cb9e22de-c176-4300-9aa6-2f98513b11d4
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.poeme
   module:
     - datetime
+_core:
+  default_config_hash: 7uYtln2qjazl6NehmC-RW3nU09O0sjngl2yMRFU8kWU
 id: node.poeme.field_annee_d_edition
 field_name: field_annee_d_edition
 entity_type: node

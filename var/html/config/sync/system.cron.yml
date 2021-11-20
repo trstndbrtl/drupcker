@@ -3,3 +3,5 @@ threshold:
   requirements_error: 1209600
 logging: 1
 langcode: fr
+_core:
+  default_config_hash: rHgsxJA2AqiEd8TOJCmRHQlwDiOU_yHi0itJst996RI

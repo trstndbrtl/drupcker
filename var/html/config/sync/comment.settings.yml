@@ -1,2 +1,4 @@
 log_ip_addresses: false
 langcode: fr
+_core:
+  default_config_hash: ucAJ8PPI2rtzoD8V1RSqpzz5YYA0vhycA12ZP4XB6xE

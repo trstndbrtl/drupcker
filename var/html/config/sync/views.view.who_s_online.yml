@@ -1,8 +1,11 @@
+uuid: f23d0b05-777e-4f3b-9ff1-6d53eb1e6867
 langcode: fr
 status: true
 dependencies:
   module:
     - user
+_core:
+  default_config_hash: DVgK7ynXZxD_QT8BbY2C2bkJFe-_Y5_t1VKA4H4yp8E
 id: who_s_online
 label: 'Bloc "Qui est connecté"'
 module: user

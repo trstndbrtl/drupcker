@@ -1,3 +1,4 @@
+uuid: 7bda2f13-4e98-4618-9a35-1d1d7e98612a
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - user.role.famille
   module:
     - user
+_core:
+  default_config_hash: kOYNWmgOPy80HntdEttLtyxROkMUB6sMtOSmkY1qfX8
 id: user_remove_role_action.famille
 label: 'Enlever le rôle Famille des utilisateurs sélectionnés'
 type: user

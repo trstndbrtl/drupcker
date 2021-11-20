@@ -1,3 +1,5 @@
 enabled: true
 interval_hours: 6
 langcode: fr
+_core:
+  default_config_hash: Sp0Vab2UPykqY93iPmru7ml1z-12PdmVuBsQxvNPkYk

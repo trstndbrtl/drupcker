@@ -1,3 +1,4 @@
+uuid: ada26044-a3f6-4851-b3b8-a15a005fc57f
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - comment
     - node
     - user
+_core:
+  default_config_hash: mouqu8JZRRAgxtrnxRepk1ys2pik2-SINBXS094p7GQ
 id: comments_recent
 label: 'Commentaires récents'
 module: views

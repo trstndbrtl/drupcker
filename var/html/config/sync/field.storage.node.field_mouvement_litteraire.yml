@@ -1,9 +1,12 @@
+uuid: b2ed4f39-e5e5-4f74-af3f-4375aef5187a
 langcode: fr
 status: true
 dependencies:
   module:
     - node
     - taxonomy
+_core:
+  default_config_hash: FUQaxd0qeg-R8NMC11qcTjWDy7bCnpe0cl8vZrsDdJs
 id: node.field_mouvement_litteraire
 field_name: field_mouvement_litteraire
 entity_type: node

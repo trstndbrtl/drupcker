@@ -1,9 +1,12 @@
+uuid: d9c93931-34a1-4268-ad1f-622cd72635d1
 langcode: fr
 status: true
 dependencies:
   module:
     - media
     - node
+_core:
+  default_config_hash: jK_XfL7V35R8d9-wfbz9eOza_YLwFri2DpHsVfSNoMo
 id: node.field_couverture
 field_name: field_couverture
 entity_type: node

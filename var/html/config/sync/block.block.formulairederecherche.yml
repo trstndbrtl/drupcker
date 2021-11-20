@@ -1,0 +1,21 @@
+uuid: 8e34e66d-5968-488b-9ca3-0d8096fb5b1c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - mm_api
+id: formulairederecherche
+theme: mm_api
+region: secondary_menu
+weight: -4
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulaire de recherche'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

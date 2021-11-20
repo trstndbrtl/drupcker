@@ -1,3 +1,4 @@
+uuid: 319871a2-a8a3-4868-b25d-313cb7cb0f6c
 langcode: fr
 status: true
 dependencies:
@@ -13,6 +14,8 @@ third_party_settings:
     restricted_html: '0'
     full_html: '0'
     plain_text: '0'
+_core:
+  default_config_hash: lbIzx8ifqPmFwrbBgPLN4tVdZzfWvSZEC2AWbRpTRqI
 id: node.livres.body
 field_name: body
 entity_type: node

@@ -1,3 +1,4 @@
+uuid: ee021eb8-624d-4721-853d-647e2dfb23eb
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - field.storage.node.field_traducteur
     - node.type.livres
     - taxonomy.vocabulary.figures
+_core:
+  default_config_hash: 8qdLs9PBDqAeme_StB0mCLpN-m-5KOa4aIVEyXFyPNA
 id: node.livres.field_traducteur
 field_name: field_traducteur
 entity_type: node

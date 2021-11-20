@@ -1,3 +1,4 @@
+uuid: 22c83ece-ac63-4a88-af1b-b1d74f4ce1a6
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - taxonomy.vocabulary.figures
   module:
     - datetime
+_core:
+  default_config_hash: '-NpR3nAJb0r74vM82WEpcqRZuJc-m9c5oQaxfc0JgxM'
 id: taxonomy_term.figures.field_date_de_naissance
 field_name: field_date_de_naissance
 entity_type: taxonomy_term

@@ -1,3 +1,4 @@
+uuid: 28e7102a-273e-4c8f-af2d-847327e3c6de
 langcode: fr
 status: true
 dependencies:
@@ -9,7 +10,10 @@ dependencies:
     - image.style.thumbnail
   module:
     - image
+    - path
     - user
+_core:
+  default_config_hash: AmtfSNUzhLpu9SEySHiDTraa4T0_R0LR572wIq0rErI
 id: user.user.default
 targetEntityType: user
 bundle: user
@@ -51,6 +55,12 @@ content:
     region: content
   language:
     weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
     region: content
     settings: {  }
     third_party_settings: {  }

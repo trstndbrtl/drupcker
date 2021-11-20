@@ -4,3 +4,5 @@ flood:
   interval: 3600
 user_default_enabled: true
 langcode: fr
+_core:
+  default_config_hash: YCxyTbmI-pLnL_QVBzRQMvQ6WR90JxhPDu02296ECcI

@@ -1,3 +1,4 @@
+uuid: 1f7aea6e-7b6d-4484-b85e-700fb102990c
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - field.storage.node.field_mouvement_litteraire
     - node.type.poeme
     - taxonomy.vocabulary.mouvement_litteraire
+_core:
+  default_config_hash: wYNyF6SXuHCHM2mSPwKqhhgQP_7u9p3vfqCLLUVdPnE
 id: node.poeme.field_mouvement_litteraire
 field_name: field_mouvement_litteraire
 entity_type: node

@@ -1,8 +1,11 @@
+uuid: f9569789-1a66-4dbe-b6d6-e7edfef2d369
 langcode: fr
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: QZNEq3yyNCRGiQ8d0fHo7sO5awfkUJrGwgpxN2FLJJA
 id: node.field_video
 field_name: field_video
 entity_type: node

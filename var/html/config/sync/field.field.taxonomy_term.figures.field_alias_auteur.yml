@@ -1,9 +1,12 @@
+uuid: 79353db0-98d5-4daa-8bd1-95f4bd36fe73
 langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.taxonomy_term.field_alias_auteur
     - taxonomy.vocabulary.figures
+_core:
+  default_config_hash: 8_ZHcIc4rRXVfkvgrONzlGk7kXt7OaQup0uJnlRyZl0
 id: taxonomy_term.figures.field_alias_auteur
 field_name: field_alias_auteur
 entity_type: taxonomy_term

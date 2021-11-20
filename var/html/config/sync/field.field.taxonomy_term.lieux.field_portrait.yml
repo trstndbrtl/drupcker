@@ -1,3 +1,4 @@
+uuid: 58a535dd-5ea2-4cf0-912c-e6ebbf3af0a7
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - taxonomy.vocabulary.lieux
   module:
     - image
+_core:
+  default_config_hash: 99yOxfq-i_bGGE45LFzalRIXfW7lTGMk_HxO64-TuLE
 id: taxonomy_term.lieux.field_portrait
 field_name: field_portrait
 entity_type: taxonomy_term

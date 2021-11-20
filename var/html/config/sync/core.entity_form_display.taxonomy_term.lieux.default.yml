@@ -1,3 +1,4 @@
+uuid: c237aa9b-b475-43db-b913-65afdd843b89
 langcode: fr
 status: true
 dependencies:
@@ -10,11 +11,12 @@ dependencies:
     - taxonomy.vocabulary.lieux
   module:
     - image
-    - layout_discovery
     - link
     - path
     - telephone
     - text
+_core:
+  default_config_hash: HpMY7moK_UyVuEYf0p-M_zcx6lRUlQI22oPop10RZwM
 id: taxonomy_term.lieux.default
 targetEntityType: taxonomy_term
 bundle: lieux

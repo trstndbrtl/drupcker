@@ -1,9 +1,12 @@
+uuid: aec983d5-9914-4d40-a1b8-2ecd28cd4bf2
 langcode: fr
 status: true
 dependencies:
   module:
     - media
     - node
+_core:
+  default_config_hash: 4MQ54mcklKybjllp5TyQ1CAHiMIi52lhoWu2dwE90gU
 id: node.field_pdf
 field_name: field_pdf
 entity_type: node

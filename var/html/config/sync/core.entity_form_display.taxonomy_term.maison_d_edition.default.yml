@@ -1,3 +1,4 @@
+uuid: fb750abc-33be-41e2-b30d-7ed8907d69b3
 langcode: fr
 status: true
 dependencies:
@@ -12,11 +13,12 @@ dependencies:
   module:
     - datetime
     - image
-    - layout_discovery
     - link
     - path
     - telephone
     - text
+_core:
+  default_config_hash: AHnNoKjBnVTCLOjXC42QCImS3nF3Z8p6bMnQQb82O_U
 id: taxonomy_term.maison_d_edition.default
 targetEntityType: taxonomy_term
 bundle: maison_d_edition

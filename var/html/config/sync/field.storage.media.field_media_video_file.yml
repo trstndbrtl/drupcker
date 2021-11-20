@@ -1,9 +1,12 @@
+uuid: 7ff228e9-df31-4b7d-900c-1c445baa8117
 langcode: fr
 status: true
 dependencies:
   module:
     - file
     - media
+_core:
+  default_config_hash: CcafAMTQU_d0B_Ssym_1PkJ7lakV6Du7THSKr9-TRA8
 id: media.field_media_video_file
 field_name: field_media_video_file
 entity_type: media

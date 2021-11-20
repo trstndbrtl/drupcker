@@ -1,3 +1,4 @@
+uuid: 117c4f92-bd5c-4d3c-b9af-66e2da46981e
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - taxonomy.vocabulary.lieux
   module:
     - link
+_core:
+  default_config_hash: 8pvjXA3NgCSHXthG2HI1FR92QjAyAIPtVScghQYoWas
 id: taxonomy_term.lieux.field_liens
 field_name: field_liens
 entity_type: taxonomy_term

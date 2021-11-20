@@ -14,3 +14,5 @@ cancel_method: user_cancel_block
 password_reset_timeout: 86400
 password_strength: true
 langcode: fr
+_core:
+  default_config_hash: RVHVWJFL3fJfkSjWEL_hQOujc5QYI2inXVOyEgghNk8

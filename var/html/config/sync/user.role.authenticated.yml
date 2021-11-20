@@ -1,6 +1,9 @@
+uuid: dbb2a616-721c-42b6-8c05-33039947b43c
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: QdIAr9tfaU_FNZeKSgraYL-SPB2NHe3I9IyvsiAiNXg
 id: authenticated
 label: 'Utilisateur authentifié'
 weight: -9

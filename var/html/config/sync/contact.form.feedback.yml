@@ -1,6 +1,9 @@
+uuid: 3467a603-2cbb-4047-a23f-f2e48df360e6
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: WdA8yE7J48TtccAUbL0CuvBfg4QdCE4_nG7fuXx8l5Y
 id: feedback
 label: 'Retours utilisateurs sur le site web'
 recipients:

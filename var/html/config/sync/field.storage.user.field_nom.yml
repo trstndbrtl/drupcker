@@ -1,8 +1,11 @@
+uuid: d2a6f83f-c5bc-4dee-a9fb-d56d4c4abc50
 langcode: fr
 status: true
 dependencies:
   module:
     - user
+_core:
+  default_config_hash: 6RxPTWWvCTZ_g4WM5LC_zlQrRMl5ecF_hinCB08BoI8
 id: user.field_nom
 field_name: field_nom
 entity_type: user

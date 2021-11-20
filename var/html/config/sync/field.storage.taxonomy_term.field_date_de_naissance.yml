@@ -1,9 +1,12 @@
+uuid: 072b437b-7728-48a1-9229-fa16fdfcb96e
 langcode: fr
 status: true
 dependencies:
   module:
     - datetime
     - taxonomy
+_core:
+  default_config_hash: YNUYzF-LPtZ-Zw3BODG9_HxdLcIXHooQ1Hy6SEjMsuI
 id: taxonomy_term.field_date_de_naissance
 field_name: field_date_de_naissance
 entity_type: taxonomy_term

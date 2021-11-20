@@ -1,3 +1,4 @@
+uuid: 6dbe11bb-cb41-49ed-b148-a6896516cf6b
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.revue
   module:
     - link
+_core:
+  default_config_hash: JTdethkNy9XkEz9KlvANasoG1PtcyHpsuSF6lHrqGZI
 id: node.revue.field_liens
 field_name: field_liens
 entity_type: node

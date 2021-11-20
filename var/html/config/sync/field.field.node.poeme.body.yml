@@ -1,3 +1,4 @@
+uuid: 51dd0eb2-eda9-4d30-b1dc-215ee4420bb0
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.poeme
   module:
     - text
+_core:
+  default_config_hash: sp_Ed8NvkvobjQEko6ameNj9nkb7hUApt7Vesv3hMZc
 id: node.poeme.body
 field_name: body
 entity_type: node

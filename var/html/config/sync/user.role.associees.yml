@@ -1,6 +1,9 @@
+uuid: 5894477f-2304-4bb6-a299-3f4a107fdd65
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: FQ-IIWoyXYgf7NT44KvVtS5_AheGd1PmvTXX-kY_zbw
 id: associees
 label: Associé.e.s
 weight: -8

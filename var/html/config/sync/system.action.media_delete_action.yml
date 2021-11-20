@@ -1,8 +1,11 @@
+uuid: 845fbf7f-d6eb-498a-b18e-dbb0e276fef9
 langcode: fr
 status: true
 dependencies:
   module:
     - media
+_core:
+  default_config_hash: v506J9F9XmFr1hP8HfN4XuQFMlcEb2yC531roaOxfhQ
 id: media_delete_action
 label: 'Delete media'
 type: media

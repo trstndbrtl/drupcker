@@ -1,9 +1,12 @@
+uuid: 403eef54-9c96-4dd5-a306-375f26b839a8
 langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.node.field_video
     - node.type.revue
+_core:
+  default_config_hash: PMtYsPbaSX1NLOaGnEL3SIx5Z7LYG9dsH9EXzWIWTsI
 id: node.revue.field_video
 field_name: field_video
 entity_type: node

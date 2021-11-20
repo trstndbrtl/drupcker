@@ -1,6 +1,9 @@
+uuid: db3b40d6-1dd9-4695-94c2-cce720830df8
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: Ma1KpOVNwmbaFF0gwsg4gJCGjqIHdyEQZyAVbCftPuI
 id: famille
 label: Famille
 weight: -6

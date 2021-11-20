@@ -1,9 +1,12 @@
+uuid: 872df50c-dd12-456d-847c-01d73daeca70
 langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.node.field_sous_titre
     - node.type.livres
+_core:
+  default_config_hash: ojZVxWWA9_LyK7x9vwvbzHxpQpLiQ2b74FdnG9dMA1s
 id: node.livres.field_sous_titre
 field_name: field_sous_titre
 entity_type: node

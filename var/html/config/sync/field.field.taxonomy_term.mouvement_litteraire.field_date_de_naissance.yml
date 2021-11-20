@@ -1,3 +1,4 @@
+uuid: f4b6c868-53f4-4e5f-aee5-291176d2430a
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - taxonomy.vocabulary.mouvement_litteraire
   module:
     - datetime
+_core:
+  default_config_hash: fqJiqDPkCSfZJ4I_nww7BkrKqpIJrxfQcT3vOWPSVUg
 id: taxonomy_term.mouvement_litteraire.field_date_de_naissance
 field_name: field_date_de_naissance
 entity_type: taxonomy_term

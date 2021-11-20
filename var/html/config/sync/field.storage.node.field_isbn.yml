@@ -1,8 +1,11 @@
+uuid: 02d15953-b486-4554-bc9c-01582eff22c1
 langcode: fr
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: xzjx6aQjLoep5QZS28v7s5ioCYCFKDcplnxmcKclVAs
 id: node.field_isbn
 field_name: field_isbn
 entity_type: node

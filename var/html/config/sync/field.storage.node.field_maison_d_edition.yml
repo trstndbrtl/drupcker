@@ -1,9 +1,12 @@
+uuid: 9889dc2c-9b7a-4e5b-8be1-c6cacb83f7e2
 langcode: fr
 status: true
 dependencies:
   module:
     - node
     - taxonomy
+_core:
+  default_config_hash: 7IeDtsqMUVos_6gnGo92_1cnemXTufpwEBvXQI_Dniw
 id: node.field_maison_d_edition
 field_name: field_maison_d_edition
 entity_type: node

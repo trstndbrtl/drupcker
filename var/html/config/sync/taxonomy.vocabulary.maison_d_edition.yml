@@ -1,6 +1,9 @@
+uuid: 5c5263c8-bdd8-436d-9fc7-da5eb174a37b
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: rcEexTRzdUhtezwvcOZ_RKJW5lt_A7EAqnQ0B_IylAQ
 name: 'Maison d''édition'
 vid: maison_d_edition
 description: ''

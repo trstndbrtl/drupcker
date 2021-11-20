@@ -9,3 +9,5 @@ items:
 source:
   list_max: 3
 langcode: fr
+_core:
+  default_config_hash: 52BSv0pe6_4RWaBwOyQVpSvAxQK1_YF3bz28CfA7n0w

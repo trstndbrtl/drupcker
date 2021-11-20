@@ -1,3 +1,4 @@
+uuid: 66375e8e-c44e-461c-85c8-0287c07a426f
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - user.role.associees
   module:
     - user
+_core:
+  default_config_hash: ohG6c5eSg5y3pKwhzVjz1WsZhM-ugy1hpnNuqPuPT_8
 id: user_add_role_action.associees
 label: 'Ajouter le rôle associé.e.s aux utilisateurs sélectionnés'
 type: user

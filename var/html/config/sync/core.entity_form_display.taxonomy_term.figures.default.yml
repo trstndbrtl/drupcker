@@ -1,3 +1,4 @@
+uuid: 18ea4c23-b402-49dd-9724-1951f39c1e78
 langcode: fr
 status: true
 dependencies:
@@ -15,10 +16,11 @@ dependencies:
   module:
     - datetime
     - image
-    - layout_discovery
     - link
     - path
     - text
+_core:
+  default_config_hash: f2-yLk7bSAQ-3xpDLz_I12fNUMjjWKOTgHUQrhVYoC8
 id: taxonomy_term.figures.default
 targetEntityType: taxonomy_term
 bundle: figures

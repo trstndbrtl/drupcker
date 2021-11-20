@@ -5,3 +5,5 @@ icon:
   directory: core/modules/file/icons
 make_unused_managed_files_temporary: false
 langcode: fr
+_core:
+  default_config_hash: FY_hTP3qCmC1cNNYfJHE0h1-OMeQIKxmAr4Nyqz7RMw

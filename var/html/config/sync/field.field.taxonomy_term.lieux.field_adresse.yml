@@ -1,9 +1,12 @@
+uuid: ed48adf4-f575-48f2-8824-990529898003
 langcode: fr
 status: true
 dependencies:
   config:
     - field.storage.taxonomy_term.field_adresse
     - taxonomy.vocabulary.lieux
+_core:
+  default_config_hash: HSrIF9jALWMF3H8KH9QfY080FYWleld5LSB5GKQdfe0
 id: taxonomy_term.lieux.field_adresse
 field_name: field_adresse
 entity_type: taxonomy_term

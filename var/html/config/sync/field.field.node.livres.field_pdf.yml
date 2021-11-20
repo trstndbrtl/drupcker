@@ -1,3 +1,4 @@
+uuid: 7b176e66-8736-454f-b764-8d948ad909ac
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - field.storage.node.field_pdf
     - media.type.document
     - node.type.livres
+_core:
+  default_config_hash: 5OVLyLXY-Psbu4Ums8qJnUvr8f7-5MdDu2crI9_2zLk
 id: node.livres.field_pdf
 field_name: field_pdf
 entity_type: node

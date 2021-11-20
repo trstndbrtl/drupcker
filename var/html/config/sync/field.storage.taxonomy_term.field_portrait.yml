@@ -1,3 +1,4 @@
+uuid: a3f8a4ff-f609-40bc-8e3e-9764e9453a63
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - file
     - image
     - taxonomy
+_core:
+  default_config_hash: bE86MKDWlf7HxSjUuJ9OwsQZ8fGYOKLukAvWhFN1kUg
 id: taxonomy_term.field_portrait
 field_name: field_portrait
 entity_type: taxonomy_term

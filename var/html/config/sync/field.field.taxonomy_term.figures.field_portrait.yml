@@ -1,3 +1,4 @@
+uuid: 916a6022-4b78-4b31-969b-43a34fbc2e3d
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - taxonomy.vocabulary.figures
   module:
     - image
+_core:
+  default_config_hash: K23u-J8Ay2623p5yiP37r3427VA_G2Ht1KDTxLeA2HQ
 id: taxonomy_term.figures.field_portrait
 field_name: field_portrait
 entity_type: taxonomy_term

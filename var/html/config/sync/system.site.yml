@@ -1,5 +1,5 @@
-name: Playground9
-mail: exemple@gmail.com
+name: 'Playground Api'
+mail: trstndbrtl@gmail.com
 slogan: ''
 page:
   403: ''
@@ -9,3 +9,6 @@ admin_compact_mode: false
 weight_select_max: 100
 langcode: fr
 default_langcode: fr
+_core:
+  default_config_hash: zpzRVZJBenVYn8uxwFm87bcX1jEI6RI9puOlUrEaNts
+uuid: c7ca53d2-5e65-47e4-8930-731f3337256c

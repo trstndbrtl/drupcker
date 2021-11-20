@@ -1,3 +1,4 @@
+uuid: be60d918-ba40-43d2-854f-1c148f114d43
 langcode: fr
 status: true
 dependencies:
@@ -7,6 +8,8 @@ dependencies:
     - image
     - media
     - user
+_core:
+  default_config_hash: ap4hwX22-6WYTiiFQBOoNjO4bYiQLzD84CXQxnL3Ygc
 id: media
 label: Media
 module: views

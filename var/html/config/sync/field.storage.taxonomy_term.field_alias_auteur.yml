@@ -1,8 +1,11 @@
+uuid: dbf30e2c-47d0-4097-a2ab-eb75cd5b2dad
 langcode: fr
 status: true
 dependencies:
   module:
     - taxonomy
+_core:
+  default_config_hash: KVITX9WwsmcdvkTaJeB6EKO_oreNhypjCp4Z0cgRh1U
 id: taxonomy_term.field_alias_auteur
 field_name: field_alias_auteur
 entity_type: taxonomy_term

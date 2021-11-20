@@ -1,9 +1,12 @@
+uuid: 71c49799-ea28-45ef-bab8-63763414bafb
 langcode: fr
 status: true
 dependencies:
   module:
     - node
     - taxonomy
+_core:
+  default_config_hash: RawzNyxdHlCbhCUe5NZ4biOxoNaZqRzzfq3rR0t1QBw
 id: node.field_lieu_evenement
 field_name: field_lieu_evenement
 entity_type: node

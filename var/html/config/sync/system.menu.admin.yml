@@ -1,6 +1,9 @@
+uuid: 9073cd2c-d9fe-4102-aeea-f01120edc561
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: u1TaJgGuI7dfEk7c8RFSSOoA3uK9BldKjI0uaV5kIpg
 id: admin
 label: Administration
 description: 'Liens des tâches d''administration'

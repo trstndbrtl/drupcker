@@ -1,3 +1,4 @@
+uuid: cc149604-ed94-4b30-88fd-33bfe14d890e
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - taxonomy.vocabulary.maison_d_edition
   module:
     - link
+_core:
+  default_config_hash: 51UrDEt5LmPbVHUxXdJhkl6sA8e3SjUjHMuSZadRC_8
 id: taxonomy_term.maison_d_edition.field_liens
 field_name: field_liens
 entity_type: taxonomy_term

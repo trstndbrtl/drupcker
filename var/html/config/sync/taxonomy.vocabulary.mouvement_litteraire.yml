@@ -1,6 +1,9 @@
+uuid: 2c2408be-70a5-4e8c-a676-77e07359d3bf
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: tou4AoK5olv6AIZZbv_LLlWjG7R5yX9A2FZB2iHDMsk
 name: 'Mouvement littéraire'
 vid: mouvement_litteraire
 description: ''

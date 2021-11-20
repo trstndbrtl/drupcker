@@ -1,3 +1,4 @@
+uuid: 492dbec9-6102-45e5-bef7-b99a6b2234cb
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - field.storage.user.field_nom
   module:
     - user
+_core:
+  default_config_hash: _S1zduivqBzeGVzMgm08HnTdTc754BeG4nL8HZcfudA
 id: user.user.field_nom
 field_name: field_nom
 entity_type: user

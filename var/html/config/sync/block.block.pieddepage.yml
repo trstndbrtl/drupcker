@@ -1,0 +1,25 @@
+uuid: 10c97a4d-b734-4d09-866a-907dc853a9a5
+langcode: fr
+status: false
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - mm_api
+id: pieddepage
+theme: mm_api
+region: footer
+weight: -4
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Pied de page'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

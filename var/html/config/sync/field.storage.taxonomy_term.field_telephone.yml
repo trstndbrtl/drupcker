@@ -1,9 +1,12 @@
+uuid: 48bc5031-7b02-429d-a8fc-696652ccf5d3
 langcode: fr
 status: true
 dependencies:
   module:
     - taxonomy
     - telephone
+_core:
+  default_config_hash: '-PmZ9QJsDkT4hPgS6Sbeu3VimE_faOwpjlkWtayBiII'
 id: taxonomy_term.field_telephone
 field_name: field_telephone
 entity_type: taxonomy_term

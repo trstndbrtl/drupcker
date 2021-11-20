@@ -1,3 +1,4 @@
+uuid: dc56e1cb-c989-4561-8255-ab19837fb029
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.revue
   module:
     - datetime
+_core:
+  default_config_hash: XMENcp2M82XhPnzLgoPik9IXh-vEnVvYI91Eu4pxtc4
 id: node.revue.field_annee_d_edition
 field_name: field_annee_d_edition
 entity_type: node

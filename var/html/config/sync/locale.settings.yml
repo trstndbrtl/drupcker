@@ -12,3 +12,5 @@ translation:
   path: ../translations
   import_enabled: true
 langcode: fr
+_core:
+  default_config_hash: lIq5Xp5ytzxUMdNEsZAPexO4JQ6PalSjNqTwTazIeJY

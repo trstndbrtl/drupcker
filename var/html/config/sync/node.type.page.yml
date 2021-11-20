@@ -1,6 +1,9 @@
+uuid: 42be772c-6faa-413c-a217-a8ee1d4366d7
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: fzqx8C9rHolbi2DJmfjJsSimvT1PoZNGbcLzBFx2B0Q
 name: 'Page de base'
 type: page
 description: 'Utilisez les <em>pages de base</em> pour votre contenu statique, tel que la page ''Qui sommes-nous''.'

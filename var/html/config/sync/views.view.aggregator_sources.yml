@@ -1,3 +1,4 @@
+uuid: b335dbb2-adf2-4528-9730-70fd396e18b9
 langcode: fr
 status: true
 dependencies:
@@ -7,6 +8,8 @@ dependencies:
   module:
     - aggregator
     - user
+_core:
+  default_config_hash: '-wlYrF3gDTRwP24DGm0FdFWmDCxzTYr-Q7x_WO5HA04'
 id: aggregator_sources
 label: 'Aggregator sources'
 module: aggregator

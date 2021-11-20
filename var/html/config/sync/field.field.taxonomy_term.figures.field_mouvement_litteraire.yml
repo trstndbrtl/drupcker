@@ -1,3 +1,4 @@
+uuid: 799211b6-e4e5-43e7-b215-543450df2bf7
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - field.storage.taxonomy_term.field_mouvement_litteraire
     - taxonomy.vocabulary.figures
     - taxonomy.vocabulary.mouvement_litteraire
+_core:
+  default_config_hash: HzaMl9i4wbtIIR8j2YG3BOVWCKcrnlpSqien18eQxEU
 id: taxonomy_term.figures.field_mouvement_litteraire
 field_name: field_mouvement_litteraire
 entity_type: taxonomy_term

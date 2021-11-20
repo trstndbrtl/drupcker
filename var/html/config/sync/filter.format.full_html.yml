@@ -1,9 +1,12 @@
+uuid: fbe5e5e9-53f3-4fd3-ba47-90cdad5e4d30
 langcode: fr
 status: true
 dependencies:
   module:
     - editor
     - media
+_core:
+  default_config_hash: Bt-a46dDpC3kw-ExXQPokPVUENDnZyk6jsuAuN9kUiw
 name: 'HTML complet'
 format: full_html
 weight: 2
@@ -48,11 +51,11 @@ filters:
     weight: 100
     settings:
       default_view_mode: default
+      allowed_view_modes:
+        default: default
       allowed_media_types:
         audio: audio
         document: document
         image: image
         remote_video: remote_video
         video: video
-      allowed_view_modes:
-        default: default

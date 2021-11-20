@@ -13,3 +13,5 @@ logo:
   url: ''
   use_default: true
 langcode: fr
+_core:
+  default_config_hash: '-SwrYsWKN2VpcTDXGpsA991Qj07f_suRPbn24YfjRAU'

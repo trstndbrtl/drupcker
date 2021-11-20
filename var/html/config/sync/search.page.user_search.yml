@@ -1,8 +1,11 @@
+uuid: 8acb888f-387c-4341-926f-b9c243187cde
 langcode: fr
 status: true
 dependencies:
   module:
     - user
+_core:
+  default_config_hash: DZvSo9XvWmvoDbd264vNr762figYws0g1eUBR2gnZ_4
 id: user_search
 label: Utilisateurs
 path: user

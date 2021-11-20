@@ -2,3 +2,5 @@ preview_image: core/modules/image/sample.png
 allow_insecure_derivatives: false
 suppress_itok_output: false
 langcode: fr
+_core:
+  default_config_hash: 7CnygMhc8yrEJGdPf_5QRmPsMvr4QoXlsmMo3te3nbw

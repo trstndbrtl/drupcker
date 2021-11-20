@@ -1,3 +1,4 @@
+uuid: e0f11650-95c4-4e61-b37c-ced6bd2f4540
 langcode: fr
 status: true
 dependencies:
@@ -7,6 +8,8 @@ dependencies:
   module:
     - file
     - media
+_core:
+  default_config_hash: vCMPMm56i2bwQtEKBcny38otnEuMiOWBhW1uC7qds50
 id: media.field_media_document
 field_name: field_media_document
 entity_type: media

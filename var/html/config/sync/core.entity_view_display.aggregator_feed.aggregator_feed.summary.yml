@@ -1,3 +1,4 @@
+uuid: 5ed5f6a7-fa76-48ec-b54f-68888f896563
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - core.entity_view_mode.aggregator_feed.summary
   module:
     - aggregator
+_core:
+  default_config_hash: zhKYeGSPYq7ZFHlPjH5o8hNoSf_x50MfJhnE0bsQO-0
 id: aggregator_feed.aggregator_feed.summary
 targetEntityType: aggregator_feed
 bundle: aggregator_feed

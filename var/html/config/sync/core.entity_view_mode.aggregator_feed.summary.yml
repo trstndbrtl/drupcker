@@ -1,8 +1,11 @@
+uuid: c8b3bbbe-cd09-4238-acc1-1ddf0560ca9b
 langcode: fr
 status: true
 dependencies:
   module:
     - aggregator
+_core:
+  default_config_hash: EDLlvjsB_h7O0pTTrJ_bVUW_Y_HgP4TMqd2tUMPRG-w
 id: aggregator_feed.summary
 label: Summary
 targetEntityType: aggregator_feed

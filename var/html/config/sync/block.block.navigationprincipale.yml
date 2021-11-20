@@ -1,0 +1,25 @@
+uuid: 0cf12525-c176-47cd-a335-8cc7f69e73b1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - mm_api
+id: navigationprincipale
+theme: mm_api
+region: menu
+weight: -4
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigation principale'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

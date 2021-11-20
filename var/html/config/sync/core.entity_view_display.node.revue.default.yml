@@ -1,3 +1,4 @@
+uuid: 71fcdeec-a58d-4043-a340-fe7e6ae1a143
 langcode: fr
 status: true
 dependencies:
@@ -21,6 +22,8 @@ dependencies:
     - options
     - text
     - user
+_core:
+  default_config_hash: Crs27Z2p257ydaPdbVbI4dEkf0nDzaW6TmVZtq0g9Jk
 id: node.revue.default
 targetEntityType: node
 bundle: revue

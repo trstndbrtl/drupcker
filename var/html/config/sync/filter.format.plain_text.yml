@@ -1,6 +1,9 @@
+uuid: 99e9bd4c-9092-4572-b3c3-c5113eb2e4a7
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: '-HkgHFb_tVNTyyY2lYcwyfNRVwiDA6HKxfP6hr2oA00'
 name: 'Texte brut'
 format: plain_text
 weight: 10

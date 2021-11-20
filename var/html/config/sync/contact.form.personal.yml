@@ -1,6 +1,9 @@
+uuid: 1a55af67-7dcf-464b-ab76-dd4cefd4b01a
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: WGwhO4bQQh-OpJMtDLj_cNzPmeI2pcVgW1Wcl8GXcN4
 id: personal
 label: 'Formulaire de contact personnel'
 recipients: {  }

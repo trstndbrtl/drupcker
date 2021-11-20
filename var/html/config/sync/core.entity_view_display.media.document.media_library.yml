@@ -1,3 +1,4 @@
+uuid: f92d1da6-a22d-4934-b3be-685abe0629d9
 langcode: fr
 status: true
 dependencies:
@@ -8,6 +9,8 @@ dependencies:
     - media.type.document
   module:
     - image
+_core:
+  default_config_hash: 8mrJLCg1TTvestOesQc_ljy3uWEO13X64h_BVxrH7tk
 id: media.document.media_library
 targetEntityType: media
 bundle: document

@@ -1,9 +1,12 @@
+uuid: 3815efe9-1004-4946-944f-f63783bf50ef
 langcode: fr
 status: true
 dependencies:
   module:
     - aggregator
     - user
+_core:
+  default_config_hash: zv_grBZtBWzBaGGZXLDMf0MP72aSO0u6VNbEGDZ5Gew
 id: aggregator_rss_feed
 label: 'Aggregator RSS feed'
 module: aggregator

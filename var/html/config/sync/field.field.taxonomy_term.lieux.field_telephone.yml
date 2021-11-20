@@ -1,3 +1,4 @@
+uuid: 2c85f7e1-a9b7-4b4b-9f64-fc7eb2732666
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - taxonomy.vocabulary.lieux
   module:
     - telephone
+_core:
+  default_config_hash: s3NtFuZEAHLU8_yxf-TXWC5zKAwCTkKdyD4jLQKfRwE
 id: taxonomy_term.lieux.field_telephone
 field_name: field_telephone
 entity_type: taxonomy_term

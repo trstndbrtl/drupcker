@@ -1,3 +1,4 @@
+uuid: 4b39723b-a4e6-4d21-9fd1-19f71c3349a2
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - field.storage.comment.comment_body
   module:
     - text
+_core:
+  default_config_hash: kk1DjDNbnoH-F0-BXeWh5ko7xXvmD6IZz8wRs2G9N6U
 id: comment.comment.comment_body
 field_name: comment_body
 entity_type: comment

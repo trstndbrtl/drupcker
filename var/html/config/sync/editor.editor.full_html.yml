@@ -1,3 +1,4 @@
+uuid: 36313c17-efd9-4aa8-8fdf-42906ccea750
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - filter.format.full_html
   module:
     - ckeditor
+_core:
+  default_config_hash: g61zc-eYq_PKbus62YXo3N4wWATODJQ25QAem7-5PGw
 format: full_html
 editor: ckeditor
 settings:

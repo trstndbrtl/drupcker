@@ -1,3 +1,4 @@
+uuid: 469ed776-5cd7-45f5-94a4-0fd3471a15a7
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - field.storage.node.field_tags
     - node.type.poeme
     - taxonomy.vocabulary.tags
+_core:
+  default_config_hash: p9DJSnk05IRLN_XochjhPyLb-ZPb4xR6DXSxyKPA1fM
 id: node.poeme.field_tags
 field_name: field_tags
 entity_type: node

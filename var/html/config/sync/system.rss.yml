@@ -1,3 +1,5 @@
 items:
   view_mode: rss
 langcode: fr
+_core:
+  default_config_hash: C7DEDb8hFzI2a1gjp3MyfGp9U9ZLB7cydIxsfthkMNo

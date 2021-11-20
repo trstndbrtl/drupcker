@@ -1,8 +1,11 @@
+uuid: c31d01f9-12a0-449c-b20a-2cbaecd8bce7
 langcode: fr
 status: true
 dependencies:
   module:
     - taxonomy
+_core:
+  default_config_hash: SHNnrKxYEMIjKWkVPkLQsQto5_6txWUPefWGsM_onEQ
 id: taxonomy_term.field_domaine
 field_name: field_domaine
 entity_type: taxonomy_term

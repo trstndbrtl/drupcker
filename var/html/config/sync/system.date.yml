@@ -8,3 +8,5 @@ timezone:
     warn: false
     default: 0
 langcode: fr
+_core:
+  default_config_hash: vblxvKUMtwOco0N7_j3ZiNboI62VlfqTLHHTBPw4IfA

@@ -45,3 +45,5 @@ field_rewrite_elements:
   q: Q
   s: S
 langcode: fr
+_core:
+  default_config_hash: YzipCo_RpkHDSYQyCupzIgokp4xsfSxhYmE7EavrCGY

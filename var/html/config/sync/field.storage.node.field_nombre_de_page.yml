@@ -1,8 +1,11 @@
+uuid: 268055ab-1afb-4493-b356-d91c0ca0496f
 langcode: fr
 status: true
 dependencies:
   module:
     - node
+_core:
+  default_config_hash: gIKNkx_L96LCFJqNP8uUWNV9K01fT0y0Pn9aZRBASew
 id: node.field_nombre_de_page
 field_name: field_nombre_de_page
 entity_type: node

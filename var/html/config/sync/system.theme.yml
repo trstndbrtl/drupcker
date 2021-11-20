@@ -1,3 +1,5 @@
 admin: claro
-default: bartik
+default: mm_api
 langcode: fr
+_core:
+  default_config_hash: 3g70O6x_0dOMiOzTdnxyF8dF-xziv8sVYSAbfZMqj0s

@@ -1,9 +1,12 @@
+uuid: c87f5944-cf13-4083-a367-0a8604c9e464
 langcode: fr
 status: true
 dependencies:
   module:
     - link
     - node
+_core:
+  default_config_hash: X__pWiZgRFKN1t_aAgEv4u8g3oFqu93wzzCy2CDZPvU
 id: node.field_liens
 field_name: field_liens
 entity_type: node

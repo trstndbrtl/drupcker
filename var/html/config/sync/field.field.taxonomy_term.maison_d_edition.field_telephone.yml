@@ -1,3 +1,4 @@
+uuid: c9a96a9c-d93e-4059-ab53-6924a9948bd4
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - taxonomy.vocabulary.maison_d_edition
   module:
     - telephone
+_core:
+  default_config_hash: ZGk1VMiacNJHHyt6GaqUKDf-DBdfcd_FQzWesnSA4oI
 id: taxonomy_term.maison_d_edition.field_telephone
 field_name: field_telephone
 entity_type: taxonomy_term

@@ -1,3 +1,4 @@
+uuid: e3b4d47a-89aa-489d-89cb-82a30b919738
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - user.role.associees
   module:
     - user
+_core:
+  default_config_hash: Bdyd9gDLnEc42sO6HnqS6J6IuFyzaR75jTupqRhRz80
 id: user_remove_role_action.associees
 label: 'Enlever le rôle associé.e.s des utilisateurs sélectionnés'
 type: user

@@ -1,3 +1,4 @@
+uuid: d67ea133-1ba5-49c0-aacf-1f598d5b8f79
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - field.storage.node.field_maison_d_edition
     - node.type.livres
     - taxonomy.vocabulary.maison_d_edition
+_core:
+  default_config_hash: XyPBJzVFEhM1G7T6oGAw_UPKXfErt7WLIFtyUwfKUus
 id: node.livres.field_maison_d_edition
 field_name: field_maison_d_edition
 entity_type: node

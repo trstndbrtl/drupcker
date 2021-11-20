@@ -1,3 +1,4 @@
+uuid: dead99af-5238-4aee-a782-fa74bce51416
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - field.storage.node.field_couverture
     - media.type.image
     - node.type.revue
+_core:
+  default_config_hash: GxcroMPVCKXuJrIQ73oAx3YC0fPiLPGe0MrI0fQj-tQ
 id: node.revue.field_couverture
 field_name: field_couverture
 entity_type: node

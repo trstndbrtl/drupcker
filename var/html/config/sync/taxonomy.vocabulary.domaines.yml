@@ -1,6 +1,9 @@
+uuid: 78725810-4ab7-42e4-83ba-95b160c67ee3
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: u52T9JCukLKrobnIMC_FgqlpyyTJFDmiVVAJ94CTXJA
 name: Domaines
 vid: domaines
 description: ''

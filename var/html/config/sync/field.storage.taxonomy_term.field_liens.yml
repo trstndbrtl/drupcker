@@ -1,9 +1,12 @@
+uuid: 0a66856d-1dc9-417d-888c-a2ee3ad28542
 langcode: fr
 status: true
 dependencies:
   module:
     - link
     - taxonomy
+_core:
+  default_config_hash: vFLHz_uB9NbWE1cEqrWlV9N5oRT47HIKM9F-f3u0GSU
 id: taxonomy_term.field_liens
 field_name: field_liens
 entity_type: taxonomy_term

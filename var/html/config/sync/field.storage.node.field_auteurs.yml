@@ -1,9 +1,12 @@
+uuid: fcdad694-fd77-49d2-9eeb-a8bc10c99f96
 langcode: fr
 status: true
 dependencies:
   module:
     - node
     - taxonomy
+_core:
+  default_config_hash: 5WEVDWGWpQYNr86vMpE6hqx-DXHm04yXTwxr41nYbJQ
 id: node.field_auteurs
 field_name: field_auteurs
 entity_type: node

@@ -1,9 +1,12 @@
+uuid: 73898c82-f9f2-4dcf-bf0f-528c87d9de6e
 langcode: fr
 status: true
 dependencies:
   module:
     - editor
     - media
+_core:
+  default_config_hash: dc8Coyau7QKXZxjHPCfPtY4vyxxA_451OCxaxnE9FLI
 name: 'HTML simple'
 format: basic_html
 weight: 0
@@ -48,10 +51,10 @@ filters:
     weight: 100
     settings:
       default_view_mode: default
+      allowed_view_modes:
+        default: default
       allowed_media_types:
         audio: audio
         document: document
         image: image
         remote_video: remote_video
-      allowed_view_modes:
-        default: default

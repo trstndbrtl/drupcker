@@ -1,3 +1,4 @@
+uuid: 41b1761a-05db-455f-9c37-eb09b4eefaf2
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - field.storage.node.field_tags
     - node.type.revue
     - taxonomy.vocabulary.tags
+_core:
+  default_config_hash: _JF7AleX2ZgsAazD5gA6bSuc8jDPEW-7U7Zwhji9D8U
 id: node.revue.field_tags
 field_name: field_tags
 entity_type: node

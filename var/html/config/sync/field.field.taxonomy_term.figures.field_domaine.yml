@@ -1,3 +1,4 @@
+uuid: b82b0c9b-71c0-4e7a-91c8-8c6c1e7c6a76
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - field.storage.taxonomy_term.field_domaine
     - taxonomy.vocabulary.domaines
     - taxonomy.vocabulary.figures
+_core:
+  default_config_hash: 2bDMaFs2u-MMLqQ4wldvSeuPL2lTq_R7ftXvIoLvGOI
 id: taxonomy_term.figures.field_domaine
 field_name: field_domaine
 entity_type: taxonomy_term

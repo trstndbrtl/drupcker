@@ -3,3 +3,5 @@ iframe_domain: ''
 oembed_providers_url: 'https://oembed.com/providers.json'
 standalone_url: false
 langcode: fr
+_core:
+  default_config_hash: tjW4JiyFi8PddPFBc3i-Gt1ZV9zmizjvC4VY63O_ifs

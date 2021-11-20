@@ -1,9 +1,12 @@
+uuid: 66314478-2698-44e3-a835-78ad02f4a019
 langcode: fr
 status: true
 dependencies:
   module:
     - comment
     - text
+_core:
+  default_config_hash: dVF9UcFblbaG6l8PxpraZUlVW3BXnh9EpF_WIp_dul0
 id: comment.comment_body
 field_name: comment_body
 entity_type: comment

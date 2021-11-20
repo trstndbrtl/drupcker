@@ -1,3 +1,4 @@
+uuid: f50d05dc-a9c0-4e02-a2ab-3dc872b4d248
 langcode: fr
 status: true
 dependencies:
@@ -7,6 +8,8 @@ third_party_settings:
   menu_ui:
     available_menus: {  }
     parent: ''
+_core:
+  default_config_hash: Q6Ei8TcKofT_Ru60ffGrpQxDjMWdJXGJ43eI3oOvIVY
 name: livres
 type: livres
 description: 'Utilisez les livres pour votre contenu bibliographique.'

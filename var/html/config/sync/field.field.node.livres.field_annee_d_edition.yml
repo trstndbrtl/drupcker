@@ -1,3 +1,4 @@
+uuid: cc336063-da5f-41d0-82cf-9a86c8e84308
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.livres
   module:
     - datetime
+_core:
+  default_config_hash: Cu7nbhT1UhnvOpEzzc0RDO2912y2FM6wPGOiqrReGoI
 id: node.livres.field_annee_d_edition
 field_name: field_annee_d_edition
 entity_type: node

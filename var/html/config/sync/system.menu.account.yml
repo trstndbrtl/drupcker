@@ -1,6 +1,9 @@
+uuid: 40c5c53d-21f3-4cec-91f9-e0f943de332d
 langcode: fr
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: iJEDbPrw1_-xSCxZp6nOqu886QB2tkIjPPs8HepVSuw
 id: account
 label: 'Menu du compte de l''utilisateur'
 description: 'Liens associés au compte utilisateur courant'

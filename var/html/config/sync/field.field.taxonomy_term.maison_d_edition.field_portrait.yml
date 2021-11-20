@@ -1,3 +1,4 @@
+uuid: 1a95d12b-55d5-49f7-87b8-79d79397d63a
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - taxonomy.vocabulary.maison_d_edition
   module:
     - image
+_core:
+  default_config_hash: CWHSEF8G-83ZhSMZqBN_Y13dsaHIXPjW6M3FoZP1Ngg
 id: taxonomy_term.maison_d_edition.field_portrait
 field_name: field_portrait
 entity_type: taxonomy_term

@@ -1,3 +1,4 @@
+uuid: 8826d41b-7631-4376-b0aa-a5efa7c53d8b
 langcode: fr
 status: true
 dependencies:
@@ -5,6 +6,8 @@ dependencies:
     - system
   theme:
     - claro
+_core:
+  default_config_hash: p15-SZgCvJ4JbvqgCR8_c_oNJoQQHagolEV7uqMbNhw
 id: claro_breadcrumbs
 theme: claro
 region: breadcrumb

@@ -1,3 +1,4 @@
+uuid: be7e20c9-8632-4dd3-aae9-fbc8edf6ce8e
 langcode: fr
 status: true
 dependencies:
@@ -6,6 +7,8 @@ dependencies:
     - node.type.poeme
   module:
     - options
+_core:
+  default_config_hash: AMHuvKdFJfvAzrx3V-BZa7JEY0IxemaGcBTCb4PGYmM
 id: node.poeme.field_type_poeme
 field_name: field_type_poeme
 entity_type: node
