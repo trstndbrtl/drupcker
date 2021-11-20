@@ -8,7 +8,7 @@ alias l='ls $LS_OPTIONS -lA'
 # Drush Alias
 alias dcr="drush cr"
 alias dex='drush cex'
-alias dim='cim'
+alias dim='drush cim'
 
 alias lsa="ls -a"
 alias lsl='ls -l'

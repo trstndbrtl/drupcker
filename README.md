@@ -66,19 +66,19 @@ ADMINER_PORT=8011
 
 ## Run enviroment
 
-Positionnez-vous à la racine du projet,
+Position yourself at the root of the project,
 
 ```bash
 cd ~/Documents/Workspace/drucker
 ```
 
-pour lancer la commande up,
+to launch the up command,
 
 ```bash
 docker compose up -d --build
 ```
 
-Veuillez attendre la construction des containers.
+Please wait for the containers to be built.
 
 ```bash
 [+] Running 5/5
@@ -89,8 +89,8 @@ Veuillez attendre la construction des containers.
  ⠿ Container drucker9             Started                    2.0s
 ```
 
-Puis, lorsque les containers sont construits, veuillez patienter encore un peu, le temps de l'update de "composer".
-Celui-ci est lancé à la fin de la construction des containers, via l'entrypoint déclaré dans le fichier `/drucker/config/d9/Dockerfile`.
+Then, when the containers are built, please wait a bit longer, while the "compose" update takes place.
+This is launched at the end of the construction of the containers, via the entrypoint declared in the file `/drucker/config/d9/Dockerfile`.
 
 ```dockerfile
 COPY ./config/d9/entrypoint.sh /opt/drupal/entrypoint.sh
@@ -98,13 +98,13 @@ RUN chmod +x /opt/drupal/entrypoint.sh
 ENTRYPOINT [ "/opt/drupal/entrypoint.sh" ]
 ```
 
-Cette opération dure 2 à 5 minutes, ce temps varie selon la puissance de votre ordinateur ou la rapidité de votre connexion, soyez patient. Pour vérifier que la procédure "compose" est terminée, veuillez consulter les logs du container de l'application, si vous n'avez pas modifier le nom du container, celui-ci s'appelle `drucker9`,
+This operation lasts 2 to 5 minutes, this time varies according to the power of your computer or the speed of your connection, be patient. To check that the "compose" procedure is finished, please consult the logs of the application container, if you have not changed the name of the container, it is called `drucker9`,
 
 ```bash
 docker logs drucker9
 ```
 
-Composer est encore au travail
+`Composer` is still at work
 
 ```bash
 + set -ex
@@ -140,7 +140,7 @@ Lock file operations: 68 installs, 0 updates, 0 removals
   - Locking dflydev/placeholder-resolver (v1.0.2)
 ```
 
-Composer à terminé
+`Composer` at finished
 
 ```
   - Installing behat/mink-goutte-driver (v1.3.0): Extracting archive
@@ -195,7 +195,7 @@ Cleaning installed packages.
 [Sat Nov 20 18:06:06.828215 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
 ```
 
-Le log `[Sat Nov 20 18:06:06.828215 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'` signifie que `Composer` à terminé son travail, vous pouvez mainteant consulter le site.
+The log `[Sat Nov 20 18:06:06.828215 2021] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'` means that `Composer` has finished its work, you can now consult the site.
 
-Si vous n'avez pas changer la configuration `DRUPAL_PORT` dans le fichier .env, le site est disponible à l'url suivante: `http://localhost:8091`.
+If you did not change the configuration `DRUPAL_PORT` dans le fichier .env, le site est disponible à l'url suivante: `http://localhost:8091`.
 
